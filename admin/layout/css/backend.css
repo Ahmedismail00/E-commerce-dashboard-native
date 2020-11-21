@@ -1,0 +1,191 @@
+/* start main rules */
+body{
+    background-color: #F4F4F4F4;
+    font-size: 16px;
+}
+.asterisk{
+    font-size: 30px;
+    position: absolute;
+    top: 2px;
+    right: 30px;
+    color: #f00000;
+}
+/* end main rules*/
+.login{
+    width: 300px;
+    margin:100px auto;
+}
+.login input{
+    margin-bottom: 10px;
+}
+.login .form-control{
+    background-color: #EAEAEA ;
+}
+/* Start Bootstrap Edits */
+.navbar-dark .navbar-brand {
+    font-size: 1em;
+    padding-right: .5rem;
+    margin-right: 0rem;
+    color: #3498db ;
+}
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover  {
+    background-color: #3498db ;
+    border-radius: 3px;
+}
+.dropdown-menu {
+    margin-top:10px auto; 
+    border: 0px;
+    padding: 0px;
+    background-color:#343a40;
+}
+.nav-link{
+    padding-right: 0.5rem;
+    padding-left: 0.6rem;
+}
+.dropdown-item:hover {
+    background-color: #3498db ;
+    border-radius: 3px;
+    color: whitesmoke;
+}
+.dropdown-item {
+    color: rgba(255, 255, 255, 0.5);
+    padding: 0.4rem 1.5rem;
+}
+.form-control{
+    position: relative;
+}
+.show-pass{
+    position: absolute;
+    top: 10px;
+    right: -21px;
+    font-size: 19px;
+}
+/* End Bootstrap Edits */
+
+/* Start Member Page */
+h1{
+    margin : 40px 0px ;
+    color : #666;
+}
+.form-group{
+    padding: 10px;
+}
+/* End Memeber Page */
+
+/* Start Dashboard Page */
+.home-state{
+    color : #fff ;
+}
+.home-state a{
+    color : #fff ;
+    text-decoration: none;
+}
+.home-state .state-member{
+    background-color: #0097e6;
+}
+.home-state .state-pending{
+    background-color: #e84118; 
+}
+.home-state .state-item{
+    background-color: #EE5A24;
+}
+.home-state .state-comment{
+    background-color: #16a085;
+}
+.state{
+    border : 1px solid #EEE;
+    padding: 20px;
+    margin : 5px 0px;
+    text-align: center;
+    border-radius: 8px;
+}
+.state span{
+    font-size: 70px ;
+    display: block;
+}
+.panel{
+    margin : 20px 0px ;
+}
+.panel .panel-heading{
+    border : 1px solid #EEE;
+    border : 1px solid #EEE;
+    padding :10px;
+
+}
+.panel .panel-body{
+    background-color: white;
+    border : 1px solid #EEE;
+    padding :10px;
+}
+.panel .panel-heading .view{
+    cursor: pointer;
+}
+/* End Dashboard Page */
+
+/* Start Categories Page */
+.categories{
+    overflow: hidden;
+}
+.categories .cat .hidden-button{
+    position: absolute;
+    right: -200px;
+    -webkit-transition: all .5s ease-in-out ;
+    -moz-transition: all .5s ease-in-out ;
+    transition: all .5s ease-in-out ;
+}
+.categories .panel-body:hover .cat .hidden-button{
+    position: relative;
+    right: 0px;
+}
+.categories .panel-heading{
+    border : 1px solid #EEE;
+    border-bottom: none;
+    padding :10px;
+}
+.categories .panel-heading a {
+    text-decoration: none;
+}
+.categories .panel-heading a:hover {
+    color : grey;
+}
+.categories .panel{
+    background: white;
+}
+.categories .visibility{
+    background-color: #e74c3c;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+}
+.categories .comment{
+    background-color: #e67e22;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+}
+.categories .adv{
+    background-color: #34495e;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+}
+.categories .adv , .comment , .visibility{
+    margin-top: 10px
+}
+.categories .panel-body{
+    overflow: hidden;
+}
+.categories h3{
+    margin: 0px 0px 2px;
+}
+.categories p{
+    margin: 0px;
+}
+.categories .cat-name{
+    cursor: pointer;
+}
+/* End Categories Page */
+
+/* Start Items Page */
+
+/* End Items Page */
